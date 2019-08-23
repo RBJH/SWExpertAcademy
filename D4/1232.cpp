@@ -7,7 +7,7 @@ using namespace std;
 int N;
 int result = 0;
 
-pair<string, pair<int, int>> tree[1001];
+pair<string, pair<int, int>> tree[101];
 
 void init() {
   for (int n = 1; n <= N; n++) {
